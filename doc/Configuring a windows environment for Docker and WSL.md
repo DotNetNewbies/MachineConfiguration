@@ -516,12 +516,15 @@ experience on how you made it work.
           that VMWare/Microsoft will eventually address this, the VMWare folks  
           have already adopted the Hyper-V hypervisor in API form, there are  
           just a few tweaks that are yet to be finished.
+
+###  Executing this command will _DISABLE_ WSL on the host machine! 
         
         ##### Note:  
         
         If you were brave and installed VMWare and Hyper-V on the  
         host, then you will need to execute the following command to allow  
-        Hyper-V to function:
+        Hyper-V (and WSL) to function on the host (and this will _disable)
+        VMWare on the host as well - you get one or the other, not both):
 
           * bcdedit /set hypervisorlaunchtype auto
 
