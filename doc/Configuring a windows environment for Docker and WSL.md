@@ -523,7 +523,7 @@ experience on how you made it work.
         
   If you were brave and installed VMWare and Hyper-V on the  
   host, then you will need to execute the following command to allow  
-  Hyper-V (and WSL) to function on the host (and this will _disable_)
+  Hyper-V (and WSL) to function on the host (and this will _disable_)  
   VMWare on the host as well - you get one or the other, not both):
 
     * bcdedit /set hypervisorlaunchtype auto
